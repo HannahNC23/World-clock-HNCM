@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.46/moment-timezone-with-data-1970-2030.js"></script>
     <title>Hannah's World Clock</title>
   </head>
   <body>
@@ -16,25 +18,19 @@
         <option value="">Berlin</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="nottingham">
         <div>
           <h2>Nottingham</h2>
-          <div class="date">September 23 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          23:11:14
-          <span class="time-unit">AM</span>
-        </div>
+        <div class="time"></div>
       </div>
-      <div class="city">
+      <div class="city" id="paris">
         <div>
           <h2>Paris</h2>
-          <div class="date">June 11 2024</div>
+          <div class="date"></div>
         </div>
-        <div class="time">
-          05:10:24
-          <span class="time-unit">AM</span>
-        </div>
+        <div class="time"></div>
       </div>
     </div>
     <footer>
